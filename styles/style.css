@@ -18,3 +18,10 @@
     height: 50%;
     margin: 0 auto;
 }
+
+#img-cambridge {
+    display: block;
+    max-width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
