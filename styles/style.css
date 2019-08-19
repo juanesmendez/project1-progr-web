@@ -1,13 +1,44 @@
-body{
+html, body, header {
+    height: 100%;
+}
+
+.my-header {
+    background: url("../images/mountain.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
     background-color: #5CDB95;
 }
 
-#navbar{
+footer {
     background-color: #05386B;
+}
+
+#navbar {
+    background-color: #05386B;
+}
+
+#home {
+    background: url(images/mountain.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.my-button {
+    background-color: #05386B;
+    color: white;
 }
 
 .my-cards {
     background-color: #EDF5E1;
+    text-align: justify;
 }
 
 .bd-tabla-color {
@@ -19,7 +50,7 @@ body{
     max-width: 50%;
     height: 50%;
     margin: 0 auto;
-} 
+}
 
 #img-escudo-csc {
     display: block;
@@ -40,4 +71,59 @@ body{
     max-width: 50%;
     height: 50%;
     margin: 0 auto;
+}
+
+#img-superandes {
+    display: block;
+    max-width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+
+}
+#img-wallet {
+    display: block;
+    max-width: 45%;
+    height: 45%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#img-car {
+    display: block;
+    max-width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#img-taxi {
+    display: block;
+    max-width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+#img-biblio {
+    display: block;
+    max-width: 40%;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#img-atpos {
+    display: block;
+    max-width: 45%;
+    height: 45%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#img-encryption {
+    display: block;
+    max-width: 45%;
+    height: 45%;
+    margin: 0 auto;
+    margin-top: 10%;
 }
