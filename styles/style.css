@@ -6,6 +6,14 @@ body{
     background-color: #05386B;
 }
 
+.my-cards {
+    background-color: #EDF5E1;
+}
+
+.bd-tabla-color {
+    background-color: #EDF5E1;
+}
+
 #img-uniandes {
     display: block;
     max-width: 50%;
