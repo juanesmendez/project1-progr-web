@@ -3,6 +3,17 @@ html, body, header {
     width:100%;
 }
 
+#navbar {
+    background-color: #05386B;
+    color: white;
+}
+
+main {
+    position: relative;
+    overflow-y: scroll;
+    height: 100%;
+}
+
 .my-header {
     background: url("../images/header.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -13,10 +24,9 @@ html, body, header {
 
 footer {
     background-color: #05386B;
-}
-
-#navbar {
-    background-color: #05386B;
+    color: white;
+    padding: 1%;
+    position: static;
 }
 
 .content-section {
@@ -40,14 +50,16 @@ footer {
     padding-bottom: 5%;
 }
 
-#abilities-section {
-    background-color: #5CDB95;
+#skills-section {
+    background-color: #379683;
+    padding-top: 3%;
     padding-bottom: 3%;
 }
 
 #hobbies-section {
     background-color: #EDF5E1;
-    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 
 #projects-section {
@@ -160,4 +172,96 @@ footer {
     height: 45%;
     margin: 0 auto;
     margin-top: 10%;
+}
+
+#img-java {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-python {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding: 20%;
+}
+
+#img-cpp {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding: 20%;
+}
+
+#img-sql {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding-top: 16%;
+    padding-bottom: 16%;
+}
+
+#img-ts {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding: 13%;
+}
+
+#img-js {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding: 13%;
+}
+
+#img-ruby {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding: 15%;
+}
+
+#img-git {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding: 15%;
+}
+
+#img-aws {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding: 15%;
+}
+
+#img-django {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+
+#img-angular {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding: 15%;
+}
+
+#img-android {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding: 20%;
+}
+
+#img-rails {
+    display: initial;
+    max-width: 100%;
+    height: auto;
+    padding: 15%;
 }
