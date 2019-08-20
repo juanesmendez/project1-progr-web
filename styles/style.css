@@ -1,17 +1,14 @@
 html, body, header {
     height: 100%;
+    width:100%;
 }
 
 .my-header {
-    background: url("../images/mountain.jpg")no-repeat center center fixed;
+    background: url("../images/header.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-body {
-    background-color: #5CDB95;
 }
 
 footer {
@@ -20,6 +17,38 @@ footer {
 
 #navbar {
     background-color: #05386B;
+}
+
+.content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+  }
+
+#quien-soy-yo-section {
+    background-color: #8EE4AF;
+}
+
+#contact-info-section {
+    background-color: #8EE4AF;
+    padding-bottom: 3%;
+}
+
+#academic-section {
+    background-color: #5CDB95;
+    padding-bottom: 5%;
+}
+
+#abilities-section {
+    background-color: #5CDB95;
+}
+
+#hobbies-section {
+    background-color: #5CDB95;
+}
+
+#projects-section {
+    padding-top: 3%;
+    /*background-color: #379683;*/
 }
 
 #home {
@@ -91,8 +120,8 @@ footer {
 
 #img-car {
     display: block;
-    max-width: 50%;
-    height: 50%;
+    max-width: 40%;
+    height: 40%;
     margin: 0 auto;
     margin-top: 5%;
 }
