@@ -69,9 +69,21 @@ p {
     padding-bottom: 3%;
 }
 
+#contact-info-videos-section {
+    /*background-color: #ff9800;*/
+
+}
+
 #contact-info-section {
-    background-color: #ff9800;
+    background-color: #ff5722;
+    padding-top: 3%;
     padding-bottom: 3%;
+}
+
+#videos-section {
+    background-color: #ff8a65;
+    padding-top: 3%;
+    padding-bottom: 61px;
 }
 
 #academic-section {
@@ -109,6 +121,11 @@ p {
 .my-button {
     background-color: #05386B;
     color: white;
+}
+
+.my-list {
+    max-height: 200px;
+    overflow: auto;
 }
 
 .my-cards {
