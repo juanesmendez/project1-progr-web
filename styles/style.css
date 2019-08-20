@@ -50,6 +50,10 @@ h5 {
     font-family: 'Lobster', cursive;
 }
 
+.hobbies-h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
 p {
     font-family: 'Hind', sans-serif;
 }
@@ -65,6 +69,10 @@ p {
 .content-section {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
+}
+
+.carousel-item-info {
+    background-color:rgba(105,105,105,0.5);
 }
 
 #quien-soy-yo-section {
