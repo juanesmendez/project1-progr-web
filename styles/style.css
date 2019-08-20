@@ -46,6 +46,10 @@ h5 {
     font-family: 'Lexend Deca', sans-serif;
 }
 
+.my-h3 {
+    font-family: 'Lobster', cursive;
+}
+
 p {
     font-family: 'Hind', sans-serif;
 }
@@ -92,7 +96,7 @@ p {
 }
 
 #skills-section {
-    background-color: #379683;
+    background-color: #80cbc4;
     padding-top: 3%;
     padding-bottom: 3%;
 }
