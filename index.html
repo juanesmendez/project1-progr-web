@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <script src="https://kit.fontawesome.com/84611f4296.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css?family=Anton|Hind|Lexend+Deca|Lobster|Source+Serif+Pro|Yantramanav&display=swap"
+    rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -46,7 +49,7 @@
     <div class="container text-center my-auto">
       <div id="intro" class="view">
         <div class="mask">
-          <h1 class="mb-1 text-white">Welcome!</h1>
+          <h1 id="welcome-message" class="mb-1 text-white">Welcome!</h1>
           <h3 class="mb-5 text-white">
             <em>I am Juan Esteban Méndez, I hope you find out new and interesting things about me</em>
           </h3>
@@ -61,10 +64,8 @@
       <section id="quien-soy-yo-section">
         <div class="container container-float">
           <h1 id="who-am-i">Who am I?</h1>
+          <br>
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <img id="img-yo" src="./images/yo.jpg" class="img-fluid img-thumbnail shadow">
-            </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
               <p class="text-justify">My name is Juan Esteban Méndez Roys. I was born on November 8, 1997. I have lived
                 my whole life with
@@ -98,6 +99,22 @@
                 happy with what I have learned here. I am currently finishing my third year, but I cannot wait for what
                 life has waiting for me!
               </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+              <img id="img-yo" src="./images/yo.jpg" class="img-fluid img-thumbnail shadow">
+              <br>
+              <br>
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                  <ul class="list-group">
+                    <li class="list-group-item">Juan Esteban Méndez</li>
+                    <li class="list-group-item">21 years old</li>
+                    <li class="list-group-item">Systems and Computing Engineer</li>
+                  </ul>
+                </div>
+                <div class="col-1"></div>
+              </div>
             </div>
           </div>
       </section>
@@ -156,7 +173,7 @@
       </section>
       <section id="academic-section">
         <div id="" class="container container-float">
-          <h2 id="academic-curriculum" class="pt-5 pb-3">Academic Curriculum</h2>
+          <h1 id="academic-curriculum" class="pt-5 pb-3">Academic Curriculum</h1>
           <div class="row">
             <div class="col-12 col-md-6 col-lg-6">
               <p class="text-justify">
@@ -274,9 +291,10 @@
       </section>
       <section id="projects-section" class="bg-info">
         <div class="container container-float">
-          <h2 id="projects">Projects</h2>
+          <h1 id="projects">Projects</h1>
+          <br>
           <div class="card-columns">
-            <div class="card shadow my-cards" style="width: 18rem;">
+            <div class="card shadow-lg my-cards" style="width: 18rem;">
               <img id="img-superandes" src="./images/superandes.svg" class="card-img-top" alt="Shoping bag">
               <div class="card-body">
                 <h5 class="card-title text-center">SuperAndes</h5>
@@ -284,10 +302,14 @@
                   scratch.
                   I learned SQL while working on it, as well as how to connect a Java program with a database in
                   SQLDeveloper. </p>
-                <a href="#" class="btn my-button">Go somewhere</a>
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="https://github.com/juanesmendez/st-it-b5" class="btn my-button" target="__blank">Visit Repository</a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="card shadow my-cards" style="width: 18rem;">
+            <div class="card shadow-lg my-cards" style="width: 18rem;">
               <img id="img-wallet" src="./images/wallet.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center">AndMin</h5>
@@ -296,20 +318,23 @@
                   android app that could help students save money. I learned key concepts about mobile development,
                   as
                   well as Java.</p>
-                <a href="#" class="btn my-button">Go somewhere</a>
               </div>
             </div>
-            <div class="card shadow my-cards" style="width: 18rem;">
+            <div class="card shadow-lg my-cards" style="width: 18rem;">
               <img id="img-biblio" id="img-taxi" src="./images/biblio.svg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center">BibText Reader</h5>
                 <p class="card-text">A light-weight app that would receive a .bib file and parsed it. It would tell
                   you
                   all sorts of information about the file.</p>
-                <a href="#" class="btn my-button">Go somewhere</a>
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="https://github.com/juanesmendez/BibtextReader" class="btn my-button" target="__blank">Visit Repository</a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="card shadow my-cards" style="width: 18rem;">
+            <div class="card shadow-lg my-cards" style="width: 18rem;">
               <img id="img-taxi" src="./images/taxi.svg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center">Chicago Cabs</h5>
@@ -318,10 +343,9 @@
                   used some cool data structures such as hashtables, graphs, red black trees and heaps. For my final
                   assignment I had to print a graph on Google Maps that connected all of the taxi trips
                   made in a data range. All of the data was extracted from the Chicago government webpage.</p>
-                <a href="#" class="btn my-button">Go somewhere</a>
               </div>
             </div>
-            <div class="card shadow my-cards" style="width: 18rem;">
+            <div class="card shadow-lg my-cards" style="width: 18rem;">
               <img id="img-atpos" id="img-taxi" src="./images/atpos.svg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center">AtPOS</h5>
@@ -336,10 +360,14 @@
                   My
                   team used the <i>Django</i> and <i>Ruby on Rails</i> frameworks.
                 </p>
-                <a href="#" class="btn my-button">Go somewhere</a>
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="https://github.com/ISIS2503/ISIS2503-201910-S2-PYTECH" class="btn my-button" target="__blank">Visit Repository</a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="card shadow my-cards" style="width: 18rem;">
+            <div class="card shadow-lg my-cards" style="width: 18rem;">
               <img id="img-encryption" id="img-encryption" src="./images/encryption.svg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center">Safe Channel</h5>
@@ -348,10 +376,14 @@
                   parties. I implemented encryption for my first time. I used different cyber security technics such
                   as symmetric and
                   assymetric encryption, digital signatures, and message authentication codes (MAC).</p>
-                <a href="#" class="btn my-button">Go somewhere</a>
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="https://github.com/ValentinaChaconBuitrago/Caso2Infracomp" class="btn my-button" target="__blank">Visit Repository</a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="card shadow my-cards" style="width: 18rem;">
+            <div class="card shadow-lg my-cards" style="width: 18rem;">
               <img id="img-car" src="./images/car.svg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center">Used Cars</h5>
@@ -360,15 +392,16 @@
                   worked with an experienced development team. I learned amazing new concepts such as API RestFUL
                   services and how to develope a three-layer architecture application. This project made me start
                   using modern technologies such as Git, GitHub, Jenkins, SonarQube, and PostMan.</p>
-                <a href="#" class="btn my-button">Go somewhere</a>
               </div>
             </div>
+            <br>
           </div>
         </div>
       </section>
       <section id="hobbies-section">
         <div class="container container-float">
-          <h2>Hobbies</h2>
+          <h1>Hobbies</h1>
+          <br>
           <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -436,45 +469,59 @@
       <section id="skills-section">
         <div class="container container-float">
           <h1>Skills</h1>
+          <br>
           <div class="row">
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-java" src="./images/java.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">Java</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-python" src="./images/python.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">Python</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-cpp" src="./images/c.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">C++</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-sql" src="./images/sql.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">SQL</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-ts" src="./images/ts.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">TypeScript</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-js" src="./images/js.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">JavaScript</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-ruby" src="./images/ruby.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">Ruby</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-git" src="./images/git.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">Git Version Control</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-aws" src="./images/aws.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">Amazon Web Services</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-django" src="./images/django.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">Django Framework</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-angular" src="./images/angular.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">Angular Framework</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-android" src="./images/android.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">Android development</h5>
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <img id="img-rails" src="./images/rails.png" class="img-fluid img-thumbnail shadow rounded-circle">
+              <h5 class="text-center">Ruby On Rails Framework</h5>
             </div>
           </div>
         </div>
@@ -493,12 +540,13 @@
           <div class="col-6 col-md-6 col-lg-6">
             <h5 class="text-center">Connect</h5>
             <h5 class="text-center">
-              <a href="" class="fab fa-facebook"></a>
-              <a href="" class="fab fa-github"></a>
+              <a href="https://www.facebook.com/JuanEstebanMendez" class="fab fa-facebook" target="__blank"></a>
+              <a href="https://github.com/juanesmendez" class="fab fa-github" target="__blank"></a>
               <a href="" class="fab fa-google"></a>
-              <a href="" class="fab fa-twitter"></a>
-              <a href="" class="fab fa-linkedin"></a>
-              <a href="" class="fab fa-instagram"></a>
+              <a href="https://twitter.com/juanemendez" class="fab fa-twitter" target="__blank"></a>
+              <a href="https://www.linkedin.com/in/juan-esteban-mendez-93002a114/" class="fab fa-linkedin"
+                target="__blank"></a>
+              <a href="https://www.instagram.com/juanesmendez/" class="fab fa-instagram" target="__blank"></a>
               <h5>
           </div>
         </div>

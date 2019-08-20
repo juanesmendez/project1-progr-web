@@ -22,6 +22,10 @@ main {
     background-size: cover;
 }
 
+#welcome-message {
+    font-size: 100px;
+}
+
 footer {
     background-color: #05386B;
     color: white;
@@ -29,10 +33,31 @@ footer {
     /*position: static;*/
 }
 
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+h5 {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+    font-family: 'Hind', sans-serif;
+}
+
+.list-group-item{
+    background-color: #EDF5E1;
+}
+
 .content-section {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
-  }
+}
 
 #quien-soy-yo-section {
     background-color: #ff9800;
